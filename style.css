@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --brown:rgb(117, 7, 7);
+}
+#logo{
+    width: 100%;
+    height: 70px;
+}
+.nav-item i{
+    color: grey;
+    font-size: 40px;
+}
+.nav-item button{
+    background-color: white;
+    color: var(--brown);
+    border: solid 1px;
+}
+.nav-item button:hover{
+    background-color: var(--brown);
+    color: white;
+    border-color: var(--brown);
+
+}
+.nav-item{
+    font-size: 20px;
+}
+.main{
+    background-image: url(./images/360_F_660427291_vc7FkyqATnJVNdTkoOcOZf3IIbtE7KlZ.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.welcome{
+    padding: 20%;
+    padding-left: 5%;
+    color: white;
+    
+}
+.welcome h1{
+    font-size: 100px;
+}
+@media(max-width:600px){
+    .nav-item i{
+       display: none;
+    }
+    .welcome h1{
+        font-size: 30px;
+    }
+
+    .main{
+        background-position: bottom;
+    }
+
+}
+.a1:hover{
+    background-color: var(--brown);
+    color: white;
+}
+.a1{
+    border: solid var(--brown);
+    color: var(--brown);
+}
+.card-text{
+    font-weight: 700;
+}
+.card img{
+    width: 100%;
+    height: 500px;
+}
+.imgdiv{
+    width: 100%;
+    height: 500px;
+    border: 5px solid var(--brown);
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.hr{
+    width: 20%;
+    height: 8px;
+    background-color: var(--brown);
+    border-radius: 5px;
+}
+.petal{
+    color: var(--brown);
+}
+.para{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+#div2{
+    padding-top: 5%;
+}
+.imgdiv2{
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 0%;
+    width: 50%;
+    padding: 4%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.card1{
+    padding: 2%;
+    height: 400px;
+    width: 300px;
+    /* border: solid 1px; */
+    margin-left: 80px;
+    float: left;
+    text-align: justify;
+
+}
+.footer{
+
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 450px;
+    background-color: purple;
+    color: white;
+}
+.about{
+    width: 400px;
+    margin-left: 80px;
+    float: left;
+
+}
+.navigation{
+    width: 200;
+    float: left;
+    margin-left: 80px;
+}
+.follow{
+    margin-left: 120px;
+    width: 300;
+    float: left;
+}
+#font{
+    font-size: 30px;
+}
